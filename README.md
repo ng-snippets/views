@@ -25,3 +25,6 @@ $routeProvider.when("/num" , { templateUrl : "num.html", controller: "NumControl
 ```
 We can pass the Controller to define the scope params available in that particular view . 
 
+For each view we create a template html file and provide the path in the configuration.
+
+######NOTE :  From angular 1.2 + we need add an additional dependency for angular-route
